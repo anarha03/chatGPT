@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiffGenerationConfig">
+    <option name="sourceModelValue" value="com.example.chatGPT.main:com.example.chatGPT.main" />
+    <option name="targetDbValue" value="9e4a18e4-987a-4985-b9b5-550bc2df6a20" />
+    <option name="updateChangeLogPath" value="chatGPT/src/main/resources/db/changelog/db.changelog-master.yaml" />
+    <option name="updateDbConnectionName" value="9e4a18e4-987a-4985-b9b5-550bc2df6a20" />
+  </component>
+</project>

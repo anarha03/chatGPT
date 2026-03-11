@@ -1,0 +1,27 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001
+      author: anarhajiyev
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: email
+                  type: VARCHAR(255)
+              - column:
+                  name: salary
+                  type: DOUBLE
+              - column:
+                  name: department_id
+                  type: INT
+            tableName: employee

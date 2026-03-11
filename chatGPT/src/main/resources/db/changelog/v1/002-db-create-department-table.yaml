@@ -1,0 +1,22 @@
+databaseChangeLog:
+  - changeSet:
+      id: 002
+      author: anarhajiyev
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: location
+                  type: VARCHAR(255)
+
+            tableName: department

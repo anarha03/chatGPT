@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 007
+      author: anarhajiyev
+      changes:
+        - addPrimaryKey:
+            columnNames: employee_id, project_id
+            tableName: employee_project
+            constraintName: pk_employee_project_composite

@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - changeSet:
+      id: 003
+      author: anarhajiyev
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: title
+                  type: VARCHAR(255)
+              - column:
+                  name: budget
+                  type: DOUBLE
+
+            tableName: project
+
